@@ -1,15 +1,22 @@
 
-/* CSS Setup */
-    /* 1. Select * and set margin and padding to 0, box-sizing to border-box */
-    /* 2. Select body and add a background color */
-    /* 3. Select the container class:
-        add a background color
-        width to 90%
-        max-width to 400px-1200px
-        margin to 100px auto 0
-        padding from your choice of recommended 20px-40px
-        border-radius optionally to curve your corners 
-    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+}
+
+.container {
+    background-color: beige;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 50px;
+}
     /* 4. Select the btn class:
         add a background color
         add a text color
@@ -22,6 +29,18 @@
             add a cursor
             add text-align
     */
+
+.btn{
+    background-color: rgb(94, 224, 187);
+    color: rgb(42, 40, 40);
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(43, 152, 121);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
     /* 5. Select the next-btn div:
         add a background color
         add a text color
@@ -35,6 +54,42 @@
             add a cursor
             add text-align
     */
+#next-btn {
+    background: rgb(24, 86, 67);
+    color: antiquewhite;
+    margin: 30px 0;
+    padding: 10px;
+    border: 1px solid rgb(10, 40, 31);
+    border-radius: 4px;
+    width: 150px;
+    display: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(50, 44, 44);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(88, 42, 37);
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(50, 44, 44);
+    margin-bottom: 20px 0;
+}
+
+.btn:hover{
+    background: rgb(10, 40, 31);
+    color: antiquewhite;
+}
+
+.correct {
+    background: rgb(192, 232, 192);
+}
+
+.incorrect {
+    background: rgb(240, 183, 176);
+}
     /* Bonus 0. Add CSS variables with your project color pallette before applying to elements */
     /* Bonus 1. Select the correct div and add a background color + Select the incorrect div and add a background color */
     /* Bonus 2. Add container h1 styling and quiz h2 styling */
