@@ -34,7 +34,7 @@ body {
     background-color: rgb(94, 224, 187);
     color: rgb(42, 40, 40);
     width: 100%;
-    margin: 5px;
+    margin: 7px;
     padding: 10px;
     border: 1px solid rgb(43, 152, 121);
     border-radius: 5px;
@@ -75,7 +75,7 @@ h1 {
 
 h2 {
     color: rgb(50, 44, 44);
-    margin-bottom: 20px 0;
+    margin: 20px 0;
 }
 
 .btn:hover{
